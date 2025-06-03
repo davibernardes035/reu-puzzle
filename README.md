@@ -11,11 +11,15 @@ Este projeto visa encontrar a solução para um quebra-cabeça de deslizamento d
 ### 2.1. Tabuleiro Inicial
 
 Minha escolha para representar o tabuleiro foi uma matriz 5x4, dessa forma o estado inicial do tabuleiro  é:
-[[1, 2, 2, 3]
-[1, 2, 2, 3]
-[4, 5, 5, 6]
-[4, 7, 8, 6]
-[9, 0, 0, 10]]
+
+``` python
+[[1, 2, 2, 3],
+ [1, 2, 2, 3],
+ [4, 5, 5, 6],
+ [4, 7, 8, 6],
+ [9, 0, 0, 10]]
+```
+
 
 ### 2.2. Definição das Peças
 
