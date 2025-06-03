@@ -1,5 +1,7 @@
 # Solucionador de Quebra-Cabeça "Reu"
 
+![Image](https://github.com/user-attachments/assets/1f466ed0-ce7b-4e23-aca2-f90360a32190)
+
 ## 1. Descrição do Projeto
 
 Este projeto visa encontrar a solução para um quebra-cabeça de deslizamento de peças em um tabuleiro bidimensional. O objetivo é mover uma peça específica (REU) até que ela enconste na base do tabuleiro (conforme a marcação), manipulando outras peças no tabuleiro através de movimentos de deslizamento. A solução busca o caminho ótimo (menor número de movimentos) utilizando o algoritmo A*.
@@ -9,11 +11,15 @@ Este projeto visa encontrar a solução para um quebra-cabeça de deslizamento d
 ### 2.1. Tabuleiro Inicial
 
 Minha escolha para representar o tabuleiro foi uma matriz 5x4, dessa forma o estado inicial do tabuleiro  é:
-[[1, 2, 2, 3]
-[1, 2, 2, 3]
-[4, 5, 5, 6]
-[4, 7, 8, 6]
-[9, 0, 0, 10]]
+
+``` python
+[[1, 2, 2, 3],
+ [1, 2, 2, 3],
+ [4, 5, 5, 6],
+ [4, 7, 8, 6],
+ [9, 0, 0, 10]]
+```
+
 
 ### 2.2. Definição das Peças
 
