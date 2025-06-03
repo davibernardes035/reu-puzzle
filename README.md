@@ -1,5 +1,7 @@
 # Solucionador de Quebra-Cabeça "Reu"
 
+![Image](https://github.com/user-attachments/assets/1f466ed0-ce7b-4e23-aca2-f90360a32190)
+
 ## 1. Descrição do Projeto
 
 Este projeto visa encontrar a solução para um quebra-cabeça de deslizamento de peças em um tabuleiro bidimensional. O objetivo é mover uma peça específica (REU) até que ela enconste na base do tabuleiro (conforme a marcação), manipulando outras peças no tabuleiro através de movimentos de deslizamento. A solução busca o caminho ótimo (menor número de movimentos) utilizando o algoritmo A*.
