@@ -146,7 +146,7 @@ def solve_puzzle_astar(initial_board):
     heapq.heappush(open_set_pq, (f_initial, 0, entry_count, initial_board, [])) # f, g, count, state, path
     entry_count += 1
     
-    max_iterations = 20000000 # Exemplo: 10 milhões. Você precisou de ~9.6M.
+    max_iterations = 20000000 # Exemplo: 20 milhões de iterações
     iterations = 0
     solution_found = False
     print(f"Iniciando A* com heurística revisada... (limite de {max_iterations} iterações)")
@@ -175,7 +175,7 @@ def solve_puzzle_astar(initial_board):
         if is_goal_state(current_board_list):
             print(f"A*: Solução encontrada após {iterations} iterações.")
             solution_found = True
-            return current_path # <<--- ESTE É O CAMINHO DA SOLUÇÃO
+            return current_path 
 
         current_all_pieces = get_all_pieces_coords(current_board_list)
         sorted_piece_ids = sorted(current_all_pieces.keys())
@@ -280,7 +280,7 @@ if __name__ == "__main__":
         print("\nSolução encontrada pelo A*!")
         print(f"Número de movimentos: {len(returned_solution_path)}")
         
-        # Opção: Imprimir o caminho da solução no console (pode ser muito longo para 116 movimentos)
+        # Opção: Imprimir o caminho da solução no console 
         # print("\nSequência de movimentos (Peça, Direção):")
         # for i, move in enumerate(returned_solution_path):
         #     print(f"{i+1}. Peça {move[0]} -> {move[1]}")
