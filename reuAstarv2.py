@@ -263,7 +263,7 @@ def save_replay_to_file(initial_board, solution_path, filename="solution_replay.
 if __name__ == "__main__":
     initial_board_config = [
         [1, 2, 2, 3], [1, 2, 2, 3], [4, 5, 5, 6],
-        [4, 7, 8, 6], [0, 9, 10, 0]
+        [4, 7, 8, 6], [9, 0, 0, 10]
     ]
 
     print("Tabuleiro Inicial:")
